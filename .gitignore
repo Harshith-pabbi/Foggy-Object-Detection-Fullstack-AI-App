@@ -1,0 +1,29 @@
+# Python / Backend
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+
+# Database
+*.db
+*.sqlite3
+
+# Runtime Data & Large Files
+uploads/
+outputs/
+*.pt
+*.pth
+yolov8n.pt
+
+# Frontend Node JS
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+.npm/
+
+# OS Files
+.DS_Store
+Thumbs.db

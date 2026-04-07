@@ -5,18 +5,16 @@ This project is a high-performance, end-to-end deep learning web application bui
 The project is structured vertically across two main layers:
 - **`backend/`**: A fully decoupled FastAPI service interacting with an SQLite database via SQLAlchemy. It streams large video binaries asynchronously into a background AI Processing Pipeline running YOLO and OpenCV.
 - **`frontend/`**: A sleek glass-morphism React UI bundled by Vite, securely orchestrating the video upload payload, dynamically polling the backend, and drawing interactive graphical results.
-
----
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Engineered a foggy weather object detection system using AOD-Net and YOLOv8, improving detection reliability in low-visibility conditions
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Engineered a foggy weather object detection system using AOD-Net and YOLOv8, improving detection reliability in low-visibility conditions
 Developed a fullstack web application using React (Vite) and FastAPI, enabling real-time image upload and inference
 Integrated a multi-stage AI pipeline with image dehazing (AOD-Net) and object detection (YOLOv8), enhancing model performance on foggy inputs
 Built RESTful APIs using FastAPI and Python, supporting efficient image processing and prediction workflows
 Designed an interactive frontend using React, visualizing detection outputs with bounding boxes and confidence scores
 Implemented image preprocessing and post-processing using OpenCV, improving input clarity before detection
 Managed application data using SQLite and SQLAlchemy, ensuring structured storage of inputs and outputs
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 ## ⚡ Installation & Setup
 

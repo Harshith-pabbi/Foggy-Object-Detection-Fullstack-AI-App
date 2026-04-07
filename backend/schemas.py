@@ -14,4 +14,4 @@ class DetectionResult(BaseModel):
     detections: Optional[List[Dict[str, Any]]] = None
 
     class Config:
-        orm_mode = True
+        from_attributes = True

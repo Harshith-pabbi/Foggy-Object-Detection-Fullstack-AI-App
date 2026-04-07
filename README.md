@@ -82,7 +82,14 @@ npm run dev
 - **Database Architecture**: Managed dynamically using SQLAlchemy standard ORMs utilizing SQLite internally for hyper-portability.
 - **Vite Stability on Windows**: If Vite instantly crashes with `Exit Code 1`, force execution in CI mode via powershell: `$env:CI="true"; npm run dev`.
 
-
 <img width="1440" height="1524" alt="image" src="https://github.com/user-attachments/assets/ce416b40-3193-4c86-8cdb-979f3db25629" />
 
+---
 
+## 🌎 Cloud / Server Deployment (One-Liner)
+
+If you are cloning this repository directly onto a Linux VM or MacOS server, you can deploy the complete backend process in the background silently utilizing this universal one-liner:
+
+```bash
+git clone https://github.com/Harshith-pabbi/Foggy-Object-Detection-Fullstack-AI-App.git && cd Foggy-Object-Detection-Fullstack-AI-App && python -m venv venv && (source venv/bin/activate || venv\Scripts\activate) && pip install -r requirements.txt && nohup uvicorn backend.main:app --host 0.0.0.0 --port 8000 &
+```

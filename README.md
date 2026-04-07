@@ -73,3 +73,8 @@ npm run dev
 - **AI Core (`backend/ai/`)**: The `detect_yolo.py` automatically dials into Ultralytics API to silently pull and cache the `yolov8n.pt` payload directly onto your machine if it's missing. Video chunking happens in `pipeline.py`.
 - **Database Architecture**: Managed dynamically using SQLAlchemy standard ORMs utilizing SQLite internally for hyper-portability.
 - **Vite Stability on Windows**: If Vite instantly crashes with `Exit Code 1`, force execution in CI mode via powershell: `$env:CI="true"; npm run dev`.
+
+
+<img width="1440" height="1524" alt="image" src="https://github.com/user-attachments/assets/ce416b40-3193-4c86-8cdb-979f3db25629" />
+
+

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://foggy-object-detection-fullstack-ai-app-1.onrender.com';
 
 export const uploadVideo = async (file) => {
   const formData = new FormData();
